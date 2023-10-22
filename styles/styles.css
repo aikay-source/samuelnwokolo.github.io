@@ -321,18 +321,23 @@ font-size: 1.2rem;
 }
 
 .disabled-card-cta-box button{
-    cursor: not-allowed;
+    cursor: pointer;
     padding: 1rem 2rem 1rem 2rem;
-    background-color: #aaaaaa;
+    background-color: #000000;
     outline: none;
     border: none;
     border-radius: 0.4rem;
     
 }
+
+.disabled-card-cta-box button:hover{
+    background-color: #468189;
+}
+
 .disabled-card-cta-box a{
     text-decoration: none;
     color: #ffffff;
-    cursor: not-allowed;
+    cursor: pointer;
 }
 
 .card-cta-box button{
